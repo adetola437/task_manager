@@ -103,33 +103,4 @@ see Challenges below.
   delete icon are two different gestures, both route through the same
   `_confirmDelete` dialog so there's only one place that owns that copy/logic.
 
-
-## Running the project
-
-This repo was authored as pure Dart/Flutter source (no Flutter SDK was
-available in the environment it was written in), so it's missing the native
-`android/`, `ios/`, and `web/` platform folders that `flutter create` normally
-generates. **Run this once** after unzipping, before anything else:
-
-```bash
-flutter create . --project-name task_manager --org com.example.taskmanager
-```
-
-This scaffolds the missing platform folders in place without touching
-`lib/`, `test/`, `pubspec.yaml`, or `README.md`. Then:
-
-```bash
-flutter pub get
-flutter run
-```
-
-No `build_runner` step is required — the Hive adapter is hand-written and
-registered directly in `main.dart`.
-
-To produce a release APK:
-
-```bash
-flutter build apk --release
-# Output: build/app/outputs/flutter-apk/app-release.apk
-```
-
+- **Drive link to apk:** https://drive.google.com/drive/folders/1COK_v5rojt2ldbPpGwtDY2H9z9_vL3I2?usp=sharing
