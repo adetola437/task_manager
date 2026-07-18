@@ -1,0 +1,40 @@
+name: task_manager
+description: A personal task manager built with Flutter, Riverpod, and Hive.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Local persistence
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Utilities
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  flutter_screenutil: ^5.9.3
+
+  cupertino_icons: ^1.0.6
+  google_fonts: ^8.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.9
+  hive_generator: ^2.0.1
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/
